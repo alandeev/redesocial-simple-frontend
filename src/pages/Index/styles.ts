@@ -35,7 +35,7 @@ export const BoxSection = styled.div`
 
   > div {
     display: flex;
-    margin-top: 16px;
+    margin-top: 24px;
   }
 `;
 
@@ -60,6 +60,8 @@ export const Ilustration = styled.img`
 export const Title = styled.h1`
   color: ${({ theme }) => theme.colors.text};
   font-family: 'Poppins', sans-serif;
+  font-size: 38px;
+  line-height: 44px;
 `;
 
 export const Description = styled.p`

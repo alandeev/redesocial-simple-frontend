@@ -11,8 +11,8 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <GlobalStyle />
       <Routes />
+      <GlobalStyle />
     </ThemeProvider>
   );
 }
