@@ -1,4 +1,5 @@
 /* eslint-disable camelcase */
+/* eslint-disable no-console */
 import React, { useRef } from 'react';
 import { Form } from '@unform/web';
 import { FormHandles } from '@unform/core';
